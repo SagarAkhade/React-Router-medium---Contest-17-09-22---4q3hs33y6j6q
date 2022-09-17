@@ -13,23 +13,23 @@ export const Calculator = () =>{
     let ans = 0;
     
     switch (op) {
-        case "+" : {
+        case "+": {
             ans = num1 + num2;
             break;
         }
-        case "/" : {
+        case "/": {
             ans = num1 / num2;
             break;
         }
-        case "-" : {
+        case "-": {
             ans = num1 - num2;
             break;
         }
-        case "*" : {
+        case "*": {
             ans = num1 * num2;
             break;
         }
-        case "%" : {
+        case "%": {
             ans = num1 % num2;
             break;
         }
